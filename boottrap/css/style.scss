@@ -1,0 +1,145 @@
+$color: #fafafa;
+$imghead: url("../images/header.jpg");
+$colorfoot:rgb(201, 86, 73);
+
+body{
+    background: $color;
+    height: 100%;
+    width: 100%;
+}
+.headerclass{
+    width: 100%;
+    height: 364px;
+    background-image: url('/boottrap/images/header.jpg');
+    background-size: cover;
+    position:relative ;
+}
+.navclass{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+.ontivaheader{
+    position: relative;
+    top:23px
+}
+#loginbtid{
+    border: none;
+    border-radius: 50px;
+}
+.dropdown{
+    height: 40px;
+    width: 60px;
+    position: relative;
+}
+.dropdown-toggle{
+    position: absolute;
+
+
+}
+.toolbar{
+    display: flex;
+    position: relative;
+    top: 23px;
+}
+
+.contentwebclass{
+    height: 340px;
+    width: 100vw;
+    background: rgba(24, 34, 34, 0);
+    display: flex;   
+    justify-content: space-around;
+    
+}
+#msgid{
+    height: 340px;
+    width: 800px;
+    background-color: rgba(24, 34, 34, 0);
+    position: relative;   
+    display: flex;
+    flex-direction: column;
+}
+#textid{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: auto;
+}
+.searchbar{
+    height: 60px;
+    display: flex;
+    position: relative;
+
+}
+#searchid{
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    
+}
+#buttonid{
+    position: absolute;
+    background: #ce4a4a;
+    width: 150px; 
+    height: 36px;
+    right:10px ;
+    top: 12px;
+    border: none;
+    border-radius: 50px;
+    color: #f1f1f1;
+    font-size: 0.8rem;
+
+}
+.maincenterclass{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+.mainappclass{
+    display: flex;
+    max-width: 1150px !important ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.introclass{
+    padding-top: 40px;
+    text-align: center;
+}
+.content h1{
+    padding : 40px;
+    font-size: 3rem;
+    
+}
+
+.align-items-center{
+    font-size: 1.5rem;
+    font-weight: 40px;
+}
+.footerclass{
+    width: 100%;
+    height: 250px;
+    background-color: $colorfoot;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+ul {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+li{
+    display: block;
+    padding-left: 20px;
+}
